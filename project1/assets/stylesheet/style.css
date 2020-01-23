@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, span, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styling starts here */
+.block01 {
+	display: inline-block;
+	width: 280px;
+	height: 180px;
+	background-color: brown;
+	margin: 100px;
+	border: 10px solid black;
+}
+/* Line 2 */
+.block02 {
+	display: inline-block;
+	width: 280px;
+	height: 180px;
+	background-color: brown;
+	margin: 100px;
+	border: 10px double black;
+}
+.block03 {
+	display: inline-block;
+	width: 280px;
+	height: 180px;
+	background-color: brown;
+	margin: 100px;
+	border: 10px dashed black;
+}
+/* Line 3 */
+.block04 {
+	display: inline-block;
+	width: 280px;
+	height: 180px;
+	background-color: brown;
+	margin: 100px;
+	border: 10px dotted black;
+}
+.block05 {
+	display: inline-block;
+	width: 280px;
+	height: 180px;
+	background-color: brown;
+	margin: 100px;
+	border: 10px none black;
+}
+
+/* Photoframe */
+
+.box {
+	display: inline-block;
+	width: 600px;
+	height: 800px;
+	background-color: #834280;
+	margin: 50px;
+	
+}
+.frame {
+	display: inline-block;
+	width: 500px;
+	height: 650px;
+	background-color: red;
+	border-top: 20px solid #3C6FFB;
+	border-right: 20px solid #808080;
+	border-bottom: 20px solid #FAEC32;
+	border-left: 20px solid #4A8109;
+	margin: 55px 15px 40px 30px;
+	
+}
+.frame p {
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
