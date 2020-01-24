@@ -81,15 +81,19 @@ body {
 	height: 400px;
 	border: 2px dotted black;
 	background-color: #D1D631;
-	word-spacing: 12px;
 	margin: 50px 0;
+	padding: 10px;
 	
+}
+.paragraph p{
+	word-spacing: 12px;
+	padding: 10px;
 }
 /* Image */
 
 .image img {
 	display: block;
-	width: 600px;
+	width: 620px;
 	height: 600px;
 	margin: 50px 0;
 
@@ -116,6 +120,7 @@ body {
 	background-color: #a1a1a1;
 	margin: 10px;
 	letter-spacing: 2px;
+	padding: 10px;
 }	
 
 
