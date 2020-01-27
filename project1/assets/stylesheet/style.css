@@ -48,52 +48,37 @@ table {
 }
 
 /* Styling starts here */
-.block01 {
+.block{
 	display: inline-block;
 	width: 280px;
 	height: 180px;
 	background-color: brown;
 	margin: 100px;
-	border: 10px solid black;
 }
 /* Line 2 */
-.block02 {
-	display: inline-block;
-	width: 280px;
-	height: 180px;
-	background-color: brown;
-	margin: 100px;
+
+.box01 {
+	border: 10px solid black;
+}
+
+.box02 {
+
 	border: 10px double black;
 }
-.block03 {
-	display: inline-block;
-	width: 280px;
-	height: 180px;
-	background-color: brown;
-	margin: 100px;
+.box03 {
 	border: 10px dashed black;
 }
 /* Line 3 */
-.block04 {
-	display: inline-block;
-	width: 280px;
-	height: 180px;
-	background-color: brown;
-	margin: 100px;
+.box04 {
 	border: 10px dotted black;
 }
-.block05 {
-	display: inline-block;
-	width: 280px;
-	height: 180px;
-	background-color: brown;
-	margin: 100px;
+.box05 {
 	border: 10px none black;
 }
 
 /* Photoframe */
 
-.box {
+.bigbox {
 	display: inline-block;
 	width: 600px;
 	height: 800px;
@@ -111,7 +96,6 @@ table {
 	border-bottom: 20px solid #FAEC32;
 	border-left: 20px solid #4A8109;
 	margin: 55px 15px 40px 30px;
-	
 }
 .frame p {
 	color: white;

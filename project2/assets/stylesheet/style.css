@@ -48,6 +48,13 @@ table {
 }
 
 /* Styling starts here */
+.mainclass {
+	width: 1000px;
+	margin: 100px auto;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
 .bigblock {
 	display: inline-block;
 	width: 440px;
@@ -59,12 +66,6 @@ table {
 	width: 210px;
 	height: 230px;
 	margin: 10px;
-}
-.mainclass {
-	width: 1000px;
-	margin: 100px auto;
-	color: white;
-	
 }
 span {
 	display: inline-block;
